@@ -11,6 +11,7 @@ module.exports = function (app) {
       name: { type: String, required: true },
       link: { type: String, required: true },
       image: { type: String },
+      video: { type: String },
       tabs: { type: Array, default: [] },
     },
     {
