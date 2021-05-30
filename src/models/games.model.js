@@ -14,6 +14,7 @@ module.exports = function (app) {
       video: { type: String },
       tabs: { type: Array, default: [] },
       isUnity: { type: Boolean },
+      frame: { type: String },
     },
     {
       timestamps: true,
