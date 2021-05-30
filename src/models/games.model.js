@@ -13,6 +13,7 @@ module.exports = function (app) {
       image: { type: String },
       video: { type: String },
       tabs: { type: Array, default: [] },
+      isUnity: { type: Boolean },
     },
     {
       timestamps: true,
