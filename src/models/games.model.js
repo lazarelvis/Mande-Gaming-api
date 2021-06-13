@@ -15,6 +15,7 @@ module.exports = function (app) {
       tabs: { type: Array, default: [] },
       isUnity: { type: Boolean },
       frame: { type: String },
+      puncte: { type: Number, default: 0 },
     },
     {
       timestamps: true,
